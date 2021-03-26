@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+
+
+
+    <!-- css -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+     <section style="height:100%; width: 100%; box-sizing: border-box; background-color: rgb(176, 196, 222)">
+</section>
+
+ <script src="assets/function.js"></script>
+<!-- navbar -->
+   <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm ">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">EDU-COVID</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        <a class="nav-link active" href="cegah.html">Pencegahan Covid</a>
+        <a class="nav-link active" href="data.html">Data</a>
+        <a class="nav-link active" href="tanya.html">Pertanyaan</a>
+        <a class="nav-link active" href="kontak.html">Kontak</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+
+
+<form name="quiz" id="quiz">
+    <div>
+      <p>1. Apa gejala yang dirasakan dari COVID-19, kecuali</p>
+      <p><input type="radio" name="question1" value="Cina">A. Cedera kaki</p>
+     <p><input type="radio" name="question1" value="Indonesia">B. Demam</p>
+      <p><input type="radio" name="question1" value="Bekasi">C. Batuk</p>
+      <p><input type="radio" name="question1" value="Amerika">D. Pilek</p>
+    </div>
+    
+    <div>
+      <p>2.Bagaimana cara memastikan agar tidak terkena virus?</p>
+      <p><input type="radio" name="question2" value="Itik">A. Swab Test</p>
+     <p><input type="radio" name="question2" value="Ular">B. jalan</p>
+      <p><input type="radio" name="question2" value="Babi">C. duduk</p>
+      <p><input type="radio" name="question2" value="Kelelawar">D. tdk pake masker</p>
+    </div>
+
+    <div>
+      <p>3.Apa yang terjadi jika terkena virus?</p>
+      <p><input type="radio" name="question3" value="Mata">A. Isolasi mandiri</p>
+     <p><input type="radio" name="question3" value="Hidung">B. shopping</p>
+      <p><input type="radio" name="question3" value="Telinga">C. hura-hura</p>
+      <p><input type="radio" name="question3" value="Mulut">D. Mulut</p>
+    </div>
+
+    <div>
+      <p>4. jika ingin bertanya lebih lanjut hubungi?</p>
+      <p><input type="radio" name="question4" value="touch">A. Kontak person COVID-19</p>
+     <p><input type="radio" name="question4" value="air">B. Ibu </p>
+      <p><input type="radio" name="question4" value="cough">C. Bapak</p>
+      <p><input type="radio" name="question4" value="padat">D. Keluarga</p>
+    </div>
+
+    <div>
+      <p>5.Bagaimana cara mecegah virus covid ini?</p>
+      <p><input type="radio" name="question5" value="tanpamasker">A. Menerapkan 5M</p>
+     <p><input type="radio" name="question5" value="distance">B. berkerumun</p>
+      <p><input type="radio" name="question5" value="crowd">C. pergi tidak pakai masker</p>
+      <p><input type="radio" name="question5" value="wash">D. Cedera Kaki</p>
+    </div>
+    
+
+    <input type="button" name="" value="Done!" onclick="check()">
+
+
+    <p id="result"></p>
+
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+<br><br><br><br>
+
+  
+ 
+
+  </div>
+</section>
+
+<!-- footer -->
+<footer class="fixed-bottom bg-dark" style="height: 40px;">
+      <div class="container">
+        <div class="row">
+          <div class="social-media col text-center">
+            <a href="https://www.youtube.com/channel/UCXyripbH7gWF-ver4fHIjcg"><i class="fa fa-youtube">Youtube</i></a>
+            <a href="https://www.instagram.com/kintankh/"><i class="fa fa-instagram">Instagram</i></a>
+            <a href="https://github.com/kintankh"><i class="fa fa-github">Github</i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+    <script src="assets/function.js" type="text/javascript"></script>
+    
+  </body>
+</html>
